@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class calculator {
+public class Calculator {
 	Scanner scan = new Scanner(System.in); 
 	
 	public void showMenu() {
@@ -55,7 +55,7 @@ public class calculator {
 		return val;
 	}
 	public static void main(String[] args) {
-		SimpleCalculator calc = new SimpleCalculator();
+		Calculator calc = new Calculator();
 		Scanner scan = new Scanner(System.in);
 		scan.useLocale(Locale.US);
 		int x;
